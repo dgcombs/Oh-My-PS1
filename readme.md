@@ -2,4 +2,4 @@ Based on the excellent [Oh My Zsh](http://github.com/robbyrussel/oh-my-zsh), thi
 
 Powershell very powerful for interacting with Windows devices.
 
-Goo Goo Ka Choob.
+Goo Goo Ka Choob. - Dylan
