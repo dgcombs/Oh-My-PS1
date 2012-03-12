@@ -15,10 +15,10 @@ The [Wolf](http://blog.wolfplusplus.com/?p=251), provides a little help in his
 blogpost about how to use a CMD file to bootstrap powershell.
 
 There are four instances of PowerShell on my 64-bit Windows 7 installation.
-1. C:\Windows\System32\WindowsPowerShell\v1.0
-2. C:\Windows\SysWOW64\WindowsPowerShell\v1.0
-3. C:\Windows\Winsxs\AMD64...
-4. C:\Windows\Winsxs\wow64...
+1 C:\Windows\System32\WindowsPowerShell\v1.0
+2 C:\Windows\SysWOW64\WindowsPowerShell\v1.0
+3 C:\Windows\Winsxs\AMD64...
+4 C:\Windows\Winsxs\wow64...
 
 I use the one in SysWOW64. And in spite of the version numbers in the path, they
 are both version 2.
