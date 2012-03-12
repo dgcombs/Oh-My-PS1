@@ -29,3 +29,8 @@ are both version 2.
 * Check _ExecutionPolicy_ and if it is defaulted to _Restricted_ set it to _RemoteSigned_
 
 ## Engage a new Profile
+
+http://www.rlmueller.net/PSGotchas.htm
+
+http://superuser.com/questions/82053/setting-home-in-powershell
+
