@@ -15,7 +15,14 @@ if %ERRORLEVEL% EQU 1 (
 	pause
 	exit /b 1
 )
-
+ 
+Set Query=HKLM\Hardware\Description\System\CentralProcessor\0
+REG.exe Query %Query% | find /i "Platform ID" | find /i "20" 
+If %ERRORLEVEL% == 0 (
+    Echo "This is 32 Bit Operating system"
+) ELSE (
+    Echo "This is 64 Bit Operating System"
+)
 REM Set scriptDir to directory the batch file is located
 set scriptDir=%~dp0
 echo Running powershell.exe %scriptDir%get_env.ps1
